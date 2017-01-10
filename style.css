@@ -149,7 +149,7 @@ div.logoblock {
 div.logoblockUTD {
     float: left;
     width: 120pt;
-    height: 90pt; <!--- see uniblockUTD height ----->
+    height: 100pt; <!--- see uniblockUTD height ----->
     min-height:100%;
     text-align: center;
     vertical-align: middle;
@@ -159,7 +159,7 @@ div.logoblockUTD {
 div.uniblockUTD {
     text-align: left;
     padding: 5pt 0pt 0pt 0pt;
-    height: 90pt;  <!--- see logoblockUTD height ----->
+    height: 100pt;  <!--- see logoblockUTD height ----->
 }
 
 div.uniblockSoka {
