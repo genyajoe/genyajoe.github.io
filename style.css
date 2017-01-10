@@ -17,6 +17,10 @@ p {
     font-family: sans-serif;    
 }
 
+p.classlist{
+    font-size: 90%; 
+}
+
 p.titlename{
     font-family: sans-serif; 
     font-size: 25pt; 
@@ -142,9 +146,20 @@ div.logoblock {
     padding: 0pt 20pt 0pt 0pt;
 }
 
+div.logoblockUTD {
+    float: left;
+    width: 120pt;
+    height: 90pt; <!--- see uniblockUTD height ----->
+    min-height:100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20pt 20pt 0pt 0pt;
+}
+
 div.uniblockUTD {
     text-align: left;
     padding: 5pt 0pt 0pt 0pt;
+    height: 90pt;  <!--- see logoblockUTD height ----->
 }
 
 div.uniblockSoka {
