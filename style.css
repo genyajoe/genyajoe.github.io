@@ -88,24 +88,24 @@ button.menu:hover {
 div.nameblock{
     /*background-color: #111111;*/
     float: left;
-    width: 120pt;
-    height: 120pt;
+    width: 130pt;
+    height: 130pt;
     
-    padding: 8pt 0pt 0pt 0pt;
+    padding: 0pt 0pt 0pt 0pt;
     
     text-align: center;
-    display:table-cell;
+    display: table-cell;
     vertical-align: middle;    
 }
 
 div.affilblock{
     /*background-color: #111111;*/
     width:auto;
-    height: 120pt;    
-    text-align: left;    
+    height: 130pt;    
     display:table-cell;
-    padding: 0pt 0pt 0pt 8pt;
-    vertical-align: middle;    
+    padding: 0pt 0pt 0pt 10pt;
+    /*display:table-cell;
+    vertical-align: middle;*/
 }
 
 div.namezone {    
