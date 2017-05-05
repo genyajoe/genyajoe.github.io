@@ -17,6 +17,15 @@ p {
     font-family: sans-serif;    
 }
 
+p.projdesc {
+    font-family: sans-serif; 
+    font-size: 25pt; 
+    color:#494949;
+    
+    padding: 0pt;
+    margin: 5pt 0pt 0pt ;
+}
+
 p.classlist{
     font-size: 90%; 
 }
