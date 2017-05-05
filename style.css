@@ -20,9 +20,10 @@ p {
 
 p.projdesc {
     font-family: sans-serif; 
+    color:#494949;
     
     padding: 0pt;
-    margin: 5pt 0pt 0pt ;
+    margin: 5pt 0pt 0pt 0pt;
 }
 
 p.classlist{
@@ -42,7 +43,7 @@ a.cv {
 }
 
 h1 {
-    color: #4169e1; /* 文字の色 */
+    color:#494949;/* 文字の色 */
     font-family: sans-serif;
     /*padding-left: 100px; /* 左の余白 */
     /*border-width: 0px 0px 2px 20px; /* 枠の幅 */
@@ -51,7 +52,7 @@ h1 {
     /*line-height: 100%; /* 行の高さ */
 }
 h2 {
-    color: #4169e1; /* 文字の色 */
+    color:#494949;/* 文字の色 */
     font-family: sans-serif;
     padding-left: 10px; /* 左の余白 */
     border-width: 0px 0px 2px 15px; /* 枠の幅 */
