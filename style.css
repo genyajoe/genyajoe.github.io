@@ -14,13 +14,12 @@ h1.section {
 }
 
 p {
-    font-family: sans-serif;    
+    font-family: sans-serif;
+    color:#494949;
 }
 
 p.projdesc {
     font-family: sans-serif; 
-    font-size: 25pt; 
-    color:#494949;
     
     padding: 0pt;
     margin: 5pt 0pt 0pt ;
