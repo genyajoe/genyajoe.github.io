@@ -44,6 +44,12 @@ a:active {
     color: #4F44CB;
 }
 
+a.weblogo:link {
+    border-radius: 7px;        /* CSS3草案 */  
+    -webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 7px;   /* Firefox用 */    
+}
+
 a.moreinfo:link { 
     color: #E6E6E6;/*#4F44CB;*/
     background-color: #666666;
