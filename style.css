@@ -46,11 +46,11 @@ a:active {
 
 a.moreinfo:link { 
     color: #E6E6E6;/*#4F44CB;*/
-    background-color: #4C4C4C;
+    background-color: #666666;
     
     position: absolute;
     margin-top: 3pt;   
-    margin-bottom: 4pt;   
+    margin-bottom: 3pt;   
 
     padding-top:2pt;
     padding-bottom:2pt;
@@ -66,10 +66,10 @@ a.moreinfo:link {
 a.moreinfo:visited {
     color: #E6E6E6;/*#4F44CB;*/
 }
-a.moreinfo:hover {
+/*a.moreinfo:hover {
     color: #4C4C4C;/*#4F44CB;*/
-    background-color: #eeeeee;    
-}
+    /*background-color: #eeeeee;    
+}*/
 a.moreinfo:active {
     color: #E6E6E6;/*#4F44CB;*/
 }
