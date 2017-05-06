@@ -29,18 +29,45 @@ p.titlename{
     margin: 0pt;
 }
 
+
 a:link { 
     color: #4F44CB;
     text-decoration: none;
 }
 a:visited {
-    color: #4F44CB; 
+    color: #4F44CB;
 }
 a:hover {
-    color: #003DE4; 
+    color: #4F44CB;
 }
 a:active {
-    color: #4F44CB; 
+    color: #4F44CB;
+}
+
+a.moreinfo:link { 
+    color: #E6E6E6;/*#4F44CB;*/
+    background-color: #4C4C4C;
+
+    padding-top:2pt;
+    padding-bottom:2pt;
+    padding-left:4pt;
+    padding-right:4pt;
+    
+    border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */    
+    
+    text-decoration: none;
+}
+a.moreinfo:visited {
+    color: #E6E6E6;/*#4F44CB;*/
+}
+a.moreinfo:hover {
+    color: #4C4C4C;/*#4F44CB;*/
+    background-color: #E6E6E6;    
+}
+a.moreinfo:active {
+    color: #E6E6E6;/*#4F44CB;*/
 }
 
 h1 {
