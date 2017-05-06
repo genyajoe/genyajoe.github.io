@@ -48,6 +48,7 @@ a.moreinfo:link {
     color: #E6E6E6;/*#4F44CB;*/
     background-color: #4C4C4C;
     
+    position: absolute;
     margin-top: 4pt;    
 
     padding-top:2pt;
@@ -66,7 +67,7 @@ a.moreinfo:visited {
 }
 a.moreinfo:hover {
     color: #4C4C4C;/*#4F44CB;*/
-    background-color: none;    
+    background-color: #eeeeee;    
 }
 a.moreinfo:active {
     color: #E6E6E6;/*#4F44CB;*/
