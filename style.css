@@ -49,7 +49,8 @@ a.moreinfo:link {
     background-color: #4C4C4C;
     
     position: absolute;
-    margin-top: 4pt;    
+    margin-top: 3pt;   
+    margin-bottom: 4pt;   
 
     padding-top:2pt;
     padding-bottom:2pt;
