@@ -29,9 +29,18 @@ p.titlename{
     margin: 0pt;
 }
 
-a.cv {
-    text-decoration: none; 
-    color: #0000ff;    
+a:link { 
+    color: #4F44CB;
+    text-decoration: none;
+}
+a:visited {
+    color: #4F44CB; 
+}
+a:hover {
+    color: #003DE4; 
+}
+a:active {
+    color: #4F44CB; 
 }
 
 h1 {
