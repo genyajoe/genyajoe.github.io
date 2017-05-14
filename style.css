@@ -92,11 +92,6 @@ h1 {
 h2 {
     color:#494949;/* 文字の色 */
     font-family: sans-serif;
-    padding-left: 10px; /* 左の余白 */
-    border-width: 0px 0px 2px 15px; /* 枠の幅 */
-    border-style: solid; /* 枠の種類 */
-    border-color: #4169e1; /* 枠の色 */
-    line-height: 100%; /* 行の高さ */
 }
 
 
