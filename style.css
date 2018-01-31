@@ -54,7 +54,7 @@ a.moreinfo:link {
     color: #E6E6E6;/*#4F44CB;*/
     background-color: #666666;
     
-    display: block;    
+    display: inline-block;
     
     position: absolute;
     margin-top: 3pt;   
