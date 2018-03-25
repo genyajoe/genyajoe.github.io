@@ -30,6 +30,11 @@ p.titlename{
 }
 
 
+a.weblogo:link {
+    color: #555555;
+}
+
+
 a:link { 
     color: #4F44CB;
     text-decoration: none;
@@ -42,10 +47,6 @@ a:hover {
 }
 a:active {
     color: #4F44CB;
-}
-
-a.weblogo:link {
-    color: #555555;
 }
 
 a.moreinfo:link { 
