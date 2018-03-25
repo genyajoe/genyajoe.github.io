@@ -45,9 +45,7 @@ a:active {
 }
 
 a.weblogo:link {
-    border-radius: 7px;        /* CSS3草案 */  
-    -webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
-    -moz-border-radius: 7px;   /* Firefox用 */    
+    color: #555555;
 }
 
 a.moreinfo:link { 
