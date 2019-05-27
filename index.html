@@ -1,88 +1,677 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta name="keywords" content="Genya, Ishigaki, Genya Ishigaki, Soka University, computer science, netwrok, rakugo, Shinomiya lab, Network Design, Graph Theory, Distributed Algorithms, Combinatrics, 石垣, 原野, 石垣原野, 創価大学, ネットワーク, グラフ理論, 最適化問題, 分散アルゴリズム">
-        
-        <title>Genya Ishigaki@UTDallas</title>
-        
-        <link href="style.css" rel="stylesheet" type="text/css">
-        
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-        
-        
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"> 
-        </script>
-        
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<head lang="en">
+    <meta charset="UTF-8">
 
-            ga('create', 'UA-57100704-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </head>
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Page Title-->
+    <title>Namari - Free Landing Page Template</title>
 
-    
-<!------------------------------------------------------------------------------------------------->     
-    <body>   
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Banner Logo-->
+
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                        <!--End of Navigation Logo-->
+
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+
+                        <!--Social Icons in Header-->
+<!---                        <ul class="social-icons">
+                            <a href="https://www.researchgate.net/profile/Genya_Ishigaki" style="color:#494949;" target="_blank"><i class="ai ai-researchgate-square ai-1x"></i></a>
+                <a href="http://www.linkedin.com/in/genyaishigaki/" style="color:#494949;" target="_blank"><i class="fab fa-linkedin"></i></a>                           
+                        </ul>--->
+                        <!--End of Social Icons in Header-->
+
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner">Home</a>
+                            </li>
+                            <li>
+                                <a href="#edu">Education</a>
+                            </li>
+                            <li>
+                                <a href="#prof">Experiences</a>
+                            </li>                            
+                            <li>
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#publication">Publications</a>
+                            </li>                            
+                            <li>
+                                <a href="#awards">Awards</a>
+                            </li>  
+                            <li>
+                                <a href="#activity">Activities</a>
+                            </li>                              
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
         
-        <div class="namezone">
-        <div class="nameblock">
-        <img class="pro" src="ishigaki3.jpg">
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>Genya Ishigaki</h1>
+                    <h2>is a Ph.D. student in the Department of Computer Science of The University of Texas at Dallas. His research interest lies in protection and recovery problems in networks with dependency.
+                    
+                <!--Call to Action-->
+                <a href="./CV20190424_GenyaIshigaki_FW.pdf" target="_blank" class="button">Download CV</a>
+                <!--End Call to Action-->                
+                    </h2>
+                                        
+                </div>
+                
+
+                
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+        <!--Introduction-->
+        <section id="edu" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>Biography</h3>
+                        <h2 class="section-title">Education</h2>
+                        <p class="section-subtitle"></p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+                    <div class="timelineblock">
+                       <p>2016 - Current</p><br> 
+                    </div>
+                    <div>
+                        <p>
+                            <b>Ph.D. Student</b> in Computer Science from The University of Texas at Dallas
+                        </p>
+                    </div><br>
+                    
+                    
+                    
+                    
+                    <div class="timelineblock">
+                        <br><p>2016</p><br>
+                    </div>
+                    <div>
+                        <p>
+                            <b>M.S. in Engineering</b> from Soka University, Japan<br>
+                            Thesis: "On composing a resilient tree in a communication network with intermittent connections based on stress centrality"
+                        </p>
+                    </div><br>
+                    
+                    
+                    
+                    <div class="timelineblock">
+                        <br><p>2014</p><br>
+                    </div>
+                    <div>
+                        <p>
+                            <b>B.S. in Engineering</b> from Soka University, Japan
+                        Thesis: "Distributed network flow optimization algorithm based on tie-set control with coloring"
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+        </section>
+        <!--End of Introduction-->
+        
+        
+        <!--Introduction-->
+        <section id="prof" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>Biography</h3>
+                        <h2 class="section-title">Professional Experiences</h2>
+                        <p class="section-subtitle"></p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+                    <div class="timelineblock">
+                       <br><br><p>2018 - Current</p><br><br>
+                    </div>
+                    <div>
+                        <p>
+                            <b>Course Instructor (Teaching Assistant)</b> in The University of Texas at Dallas<br>
+                            <a href="https://coursebook.utdallas.edu/search/searchresults/cs3305.006.19s" target="_blank">CS3305 Discrete Mathematics for Computing II</a> (2019 Spring)<br>
+                            <a href="https://coursebook.utdallas.edu/cs3305.004.18f" target="_blank">CS3305 Discrete Mathematics for Computing II</a> (2018 Fall)<br>
+                            <a href="https://coursebook.utdallas.edu/search/searchresults/cs3305.0u2.18u" target="_blank">CS3305 Discrete Mathematics for Computing II</a> (2018 Summer)
+                        </p>
+                    </div><br>
+                    
+                    
+                    <div class="timelineblock">
+                       <br><p>2017</p><br>
+                    </div>
+                    <div>
+                        <p>
+                            <b>Teaching Assistant</b> in The University of Texas at Dallas<br>
+                            CS4390 Computer Networks (Dr. Zygmunt J. Haas)
+                        </p>
+                    </div><br>
+                    
+                    <div class="timelineblock">
+                       <br><br><p>2014 - 2016</p><br><br>
+                    </div>
+                    <div>
+                        <p>
+                            <b>Teaching Assistant</b> in Soka University, Japan<br>
+                            INFO161 Introduction to Programming with C I/II<br>
+	                        INFO251 Mathematical Programming<br>
+	                        INFO372 Graph Theory and Algorithms
+                        </p>
+                    </div><br>   
+                </div>
+            </div>
+
+
+        </section>
+        <!--End of Introduction-->        
+        
+        
+        <!--projects-->
+        <aside id="projects" class="scrollto text-center" data-enllax-ratio=".2">
+
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3></h3>
+                    <h2 class="section-title">Research Projects</h2>
+                </div>
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <!---- <img src="images/user-images/user-1.jpg" alt="User"/>--->
+                    <h4><b>Survivable Interdependent Network Design</b></h4>
+                    <q>The study of interdependent networks is an emerging field to deal with tangled network systems consisting of distinct kinds of network devices and their provisioning relationships. This project is aimed at formulating and providing solutions for survivability problems in interdependent networks based on graph theoretical modeling.</q>
+                    <footer>[&nbsp; <a href="https://www.slideshare.net/GenyaIshigaki/improving-the-survivability-of-interdependent-networks-by-restructuring-dependencies" target="_blank">SlideShare</a> &nbsp;]</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <h4><b>Cluster Leader Election Problem for Distributed Controller Placement</b></h4>
+                    <q>This project deals with the intractability and heuristics of the Cluster Leader Election Problem (CLEP), which is to assign a controller to one of the switches in each cluster of a network. In order to improve scalability in Software Defined Networking (SDN), a network can be clustered into subnetworks and managed by multiple distributed controllers. CLEP deals with the optimal placement of the distributed controllers in the subnetworks considering metrics between the controllers, such as distance and connectivity. Additionally, it is shown that some metrics within each subnetwork, which are discussed in other literature can be guaranteed by selecting specific clustering methods before the placement.</q>
+                    <footer>[&nbsp; <a href="https://www.slideshare.net/GenyaIshigaki/cluster-leader-election-problem-for-distributed-controller-placement-in-sdn" target="_blank">SlideShare</a> &nbsp;]</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <h4><b>Distributed network flow algorithm balancing link loads</b></h4>
+                    <q>This project proposes a distributed algorithm for congestion control in Software Defined Networking with distributed controllers by exploiting ring structures in a network and graph coloring. Our algorithm dissects a network into small ring units called tie-sets and updates flows on edges by enclosed calculation in each controller, which is in charge of one of the ring units. Additionally, it is shown that the deployment of coloring in a tie-set meta-graph enables the distributed algorithm to avoid update conflicts in shared edges with less communication among controllers.</q>
+                    <footer>[&nbsp; <a href="http://www.slideshare.net/GenyaIshigaki/distributed-network-flow-optimization-algorithm-with-tieset-control-based-on-coloring-for-sdn-62879957" target="_blank">SlideShare</a> &nbsp;]</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+                
+              
+
+            </div>
+
+        </aside>
+        <!--End of projects-->
+        
+        
+
+
+        <!--Publication-->
+        <section id="publication" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3></h3>
+                        <h2 class="section-title">Publication</h2>
+                        <p class="section-subtitle">
+                            <a href="#publication">Journals</a><br>
+                            <a href="#conference">Conferences</a><br>
+                            <a href="#coauthor">Conferences - Coauthorship</a><br>                            
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">    
+        
+        Find the publication list</a> 
+generated by <a href="https://scholar.google.com/citations?user=h3_1sPIAAAAJ&hl" target="_blank">Google Scholar</a> and 
+<a href="http://dblp.org/pers/hd/i/Ishigaki:Genya" target="_blank">dblp</a>.            
+        <h3>Journals</h3>
+        <ol>
+            
+            <li>Ashkan Yousefpour, Ashish Patil, <b>Genya Ishigaki</b>, Inwoong Kim, Xi Wang, Hakki C. Cankaya, Qiong Zhang, Weisheng Xie, Jason P. Jue<br> 
+                "FogPlan: A Lightweight QoS-aware Dynamic Fog Service Provisioning Framework"<br>
+                IEEE Internet of Things Journal, 
+                Vol. XX, Issue X, pp. XX-XX, 2019 [Accepted]<br>
+                [&nbsp;
+                <a href="https://ieeexplore.ieee.org/document/8629987" target="_blank">IEEE Xplore</a>
+                &nbsp;|&nbsp;
+                <a href="https://arxiv.org/abs/1802.00800" target="_blank">arXiv</a>
+                &nbsp;]<br><br>
+            </li><br>
+            
+            <li><b>Genya Ishigaki</b>, Riti Gour, Jason P. Jue<br> 
+                "Improving the Survivability of Clustered Interdependent Networks by Restructuring Dependencies"<br>
+                IEEE Transactions on Communications, 
+                vol. 67, no. 4, pp. 2837-2848, April 2019<br>
+                [&nbsp;
+                <a href="https://ieeexplore.ieee.org/document/8590826" target="_blank">IEEE Xplore</a>
+                &nbsp;|&nbsp;
+                <a href="https://arxiv.org/abs/1903.01583" target="_blank">arXiv</a>
+                &nbsp;]<br><br>
+            </li><br>
+            
+            <li>Riti Gour, <b>Genya Ishigaki</b>, Jian Kong, Ashkan Yousefpour, Sangjin Hong, Jason P. Jue<br> 
+                "Finding Survivable Routes in Multi-domain Optical Networks with Geographically Correlated Failures"<br>
+                IEEE/OSA Journal of Optical Communications and Networking, 
+                 Vol. 10, Issue 8, pp. C39-C49, 2018<br>
+                [&nbsp;
+                <a href="https://www.osapublishing.org/jocn/abstract.cfm?uri=jocn-10-8-C39" target="_blank">OSA Publishing</a>
+                &nbsp;|&nbsp;
+                <a href="https://ieeexplore.ieee.org/document/8438293/" target="_blank">IEEE Xplore</a>
+                &nbsp;]<br><br>                      
+            </li><br>
+            
+            <li>Ashkan Yousefpour, <b>Genya Ishigaki</b>, Riti Gour, Jason P. Jue<br> 
+                "On Reducing IoT Service Delay via Fog Offloading"<br>
+                IEEE Internet of Things Journal, 
+                Volume: 5, Issue: 2, Apr. 2018 <br>
+                [&nbsp;
+                <a href="http://ieeexplore.ieee.org/document/8246720/" target="_blank">IEEE Xplore</a>
+                &nbsp;|&nbsp;
+                <a href="https://arxiv.org/abs/1804.07376" target="_blank">arXiv</a>
+                &nbsp;]<br><br>                      
+            </li><br>
+        </ol>
+                    
+        <h1 id="conference"></h1><br><br>
+        <h3>Conferences</h3>
+        <ol>
+            <li><b>Genya Ishigaki</b>, Siddartha Devic, Riti Gour, Jason P. Jue<br>
+                "DeepPR: Incremental Recovery for Interdependent VNFs with Deep Reinforcement Learning" <br>
+                Preprint on arXiv, 
+                April 2019.<br>
+                [&nbsp;
+                <!--- <a href="https://doi.org/10.1109/ICC.2018.8422614" target="_blank">IEEE Xplore</a>
+                &nbsp;|&nbsp; --->
+                <a href="https://arxiv.org/abs/1904.11533" target="_blank">arXiv</a>
+                &nbsp;]<br><br>
+            </li><br>
+            
+            <li><b>Genya Ishigaki</b>, Riti Gour, Jason P. Jue<br>
+                "Improving the Survivability of Interdependent Networks by Restructuring Dependencies" <br>
+                IEEE International Conference on Communications (ICC) 2018 - NGNI, 
+                May 2018.<br>
+                [&nbsp;
+                <a href="https://doi.org/10.1109/ICC.2018.8422614" target="_blank">IEEE Xplore</a>
+                &nbsp;|&nbsp;
+                <a href="./papers/Ishigaki_Improving_the_Survivability_of_Interdependent_Networks.pdf" target="_blank">Paper</a>
+                &nbsp;]<br><br>
+            </li><br>    
+            
+            <li><b>Genya Ishigaki</b>, Riti Gour, Ashkan Yousefpour, Norihiko Shinomiya, Jason P. Jue<br>
+                "Cluster Leader Election Problem for Distributed Controller Placement in SDN"<br>
+                IEEE Global Communications Conference (GLOBECOM) 2017 - NGNI, 
+                Dec. 2017.<br>
+                [&nbsp;
+                <a href="https://doi.org/10.1109/GLOCOM.2017.8254748" target="_blank">IEEE Xplore</a>
+                &nbsp;|&nbsp;
+                <a href="./papers/Ishigaki_Cluster_Leader_Election_Problem.pdf" target="_blank">Paper</a>
+                &nbsp;]<br><br>
+            </li><br>            
+            
+            <li><b>Genya Ishigaki</b>, Norihiko Shinomiya<br>
+                "On Composing a Resilient Tree in a Network with Intermittent Links Based on Stress Centrality" <br>
+                2016 IEEE Symposium on Computers and Communication (ISCC),
+                Jun. 2016.<br>
+                [&nbsp;
+                <a href="http://ieeexplore.ieee.org/document/7543849/" target="_blank">IEEE Xplore</a>
+                <!--- &nbsp;|&nbsp;
+                <a href="" target="_blank">Paper</a> --->
+                &nbsp;]<br><br>                
+            </li><br>
+            
+            <li><b>Genya Ishigaki</b>, Norihiko Shinomiya<br> 
+                "Controller placement algorithm to alleviate burdens on communication nodes" <br>
+                Computing, Networking and Communications (ICNC), 2016 International Conference on,
+                Feb. 2016.<br>
+                [&nbsp;
+                <a href="http://ieeexplore.ieee.org/document/7440618/" target="_blank">IEEE Xplore</a>
+                <!--- &nbsp;|&nbsp;
+                <a href="" target="_blank">Paper</a> --->
+                &nbsp;]<br><br>                
+            </li><br>
+            
+            <li><b>Genya Ishigaki</b>, Norihiko Shinomiya<br> 
+                "Distributed network flow optimization algorithm with tie-set control based on coloring for SDN" <br>
+                Computing, Networking and Communications (ICNC), 2015 International Conference on,
+                Feb. 2015.<br>
+                [&nbsp;
+                <a href="http://ieeexplore.ieee.org/document/7069351/" target="_blank">IEEE Xplore</a>
+                <!--- &nbsp;|&nbsp;
+                <a href="" target="_blank">Paper</a> --->
+                &nbsp;]<br><br>       
+            </li><br>
+            
+            <li><b>Genya Ishigaki</b>, Masao Yoshida, Norihiko Shinomiya<br> 
+                "On maximizing tree reliability based on minimum diameter spanning tree" <br>
+                Circuits and Systems (APCCAS 2014), 2014 IEEE Asia Pacific Conference on, 
+                Nov. 2014.<br>
+                [&nbsp;
+                <a href="http://ieeexplore.ieee.org/document/7032853/" target="_blank">IEEE Xplore</a>
+                <!--- &nbsp;|&nbsp;
+                <a href="" target="_blank">Paper</a> --->
+                &nbsp;]<br><br>
+            </li><br>
+        </ol>
+                
+        <h1 id="coauthor"></h1><br><br>                    
+        <h3>Conferences - Coauthorship</h3>
+        <ol>
+            <li>Hideo Kobayashi, <b>Genya Ishigaki</b>, Riti Gour, Jason P. Jue, Norihiko Shinomiya<br>
+                "Embedding Chains of Virtual Network Functions in Inter-Datacenter Networks"<br>
+                2018 International Conference on Computing, Networking and Communications (ICNC) - NAPE, 
+                Mar. 2018.<br>
+                [&nbsp;
+                <a href="https://ieeexplore.ieee.org/document/8390413/" target="_blank">IEEE Xplore</a>
+                &nbsp;]<br><br>                                
+            </li><br>
+            
+            <li>Riti Gour, Jian Kong, <b>Genya Ishigaki</b>, Ashkan Yousefpour, Sangjin Hong, Jason P. Jue<br>
+                "Survivable Routing in Multi-domain Optical Networks with Geographically Correlated Failures"<br>
+                IEEE Global Communications Conference (GLOBECOM) 2017, 
+                Dec. 2017.<br>                 
+                [&nbsp;
+                <a href="http://ieeexplore.ieee.org/document/8254775/" target="_blank">IEEE Xplore</a>
+                &nbsp;]<br><br>                
+            </li><br>
+            
+            <li>Ashkan Yousefpour, <b>Genya Ishigaki</b>, Jason P. Jue<br>
+                "Fog Computing: Towards Minimizing Delay in the Internet of Things"<br>
+                IEEE EDGE 2017, 
+                Jun. 2017.<br>
+                [&nbsp;
+                <a href="http://ieeexplore.ieee.org/document/8029252/" target="_blank">IEEE Xplore</a>
+                &nbsp;]<br><br>                
+            </li><br>
+            
+            <li>Hideki Shindo, Hideo Kobayashi, <b>Genya Ishigaki</b>, Norihiko Shinomiya<br>
+                "Multi-Leader Election in a Clustered Graph for Distributed Network Control"<br>
+                Advanced Information Networking and Applications (AINA 2017), The 31st IEEE International Conference on, 
+                Mar. 2017.<br>
+                [&nbsp;
+                <a href="http://ieeexplore.ieee.org/document/7920929/" target="_blank">IEEE Xplore</a>
+                &nbsp;]<br><br>     
+            </li><br>
+            
+            <li>Masashi Yamada, <b>Genya Ishigaki</b>, Norihiko Shinomiya<br>
+                "A tie-set based approach of Software-Defined Networking for traffic load balancing"<br>
+                Computing Communication and Networking Technologies (ICCCNT), 7th International Conference on, Jul. 2016.<br>
+                [&nbsp;
+                <a href="http://dl.acm.org/citation.cfm?id=2967901/" target="_blank">ACM Digital Library</a>
+                &nbsp;]<br><br>                
+            </li><br>
+            
+            <li>Kento Hamada, <b>Genya Ishigaki</b>, Yoichi Sakai, Norihiko Shinomiya<br>
+                "Significance Analysis for Edges in a Graph by means of Leveling Variables on Nodes"<br>
+                Computing Communication and Networking Technologies (ICCCNT), 7th International Conference on, Jul. 2016.<br>
+                [&nbsp;
+                <a href="http://dl.acm.org/citation.cfm?id=2967909/" target="_blank">ACM Digital Library</a>
+                &nbsp;]<br><br>
+            </li><br>
+            
+            <li>Masashi Yamada, <b>Genya Ishigaki</b>, Norihiko Shinomiya<br> 
+                "Analysis on Convergence Behavior of Flow Balancing Algorithm Focusing on Ring Structure"<br>
+                The 28th Workshop on Circuits and Systems,
+                Aug, 2015. (in Japanese) 
+            </li><br>
+        </ol>
+                    
+                </div>
+            </div>
+
+
+        </section>
+        <!--End of Publication-->
+        
+        
+        <!--Content Section-->
+        <section id="awards" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3></h3>
+                        <h2 class="section-title">Honors and Awards</h2>
+                        <p class="section-subtitle"></p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+<h3>Scholarship &amp; Grants</h3>
+        <ul style="list-style:none;">        
+            <li><b>Full Scholarship for Ph.D. Study funded by Japanese government</b> ( 2016 - present )<br>
+            Sponsored by Japanese Student Services Organization (JASSO)
+            </li><br>
+
+            <li><b>Tuition Scholarship for Master Study funded by Japanese government</b> ( 2014 - 2016 )<br>
+            Sponsored by Japanese Student Services Organization (JASSO)
+            </li><br>
+
+            <li><b>Soka University Alumni Scholarship</b> ( 2016 )<br>
+            Funded by Soyukai (Society of Soka University Alumni)
+            </li><br>
+            
+            <li><b>NEC C&amp;C Foundation Travel Grants</b> ( 2015 )<br>
+            <a href="http://www.candc.or.jp/jyosei/jyosei_kokusai.html" target="_blank">NEC C&amp;C Foundation website</a><br>
+            </li><br>            
+            
+            <li><b>Tuition Scholarship for Undergraduate Study funded by Soka University</b> ( 2010 - 2014 )
+            </li><br>
+            
+        </ul>
+
+    <h3>Awards</h3>
+        <ul style="list-style:none;">    
+            <li><b>Best TA Award</b> ( As an instructor of CS3305 Discrete Math II, 2018 - 2019 )<br>
+            The University of Texas at Dallas [ <a href="certificate/Best_TA_2019.png" target="_blank">certificate</a> ]
+            </li><br>            
+            
+            <li><b>Award for Excellence (student) by IEICE Tech. Committee on CAS</b> ( 2014 )<br>
+            Technical Committee on Circuits and Systems, IEICE Engineering Sciences Society<br>
+            <a href="http://www.ieice.org/ess/cas/award_students/index.html" target="_blank">IEICE Technical Committee on Circuits and Systems Award page</a><br>
+            <a href="http://www.soka.ac.jp/news/student/2015/04/9563/" target="_blank">Soka university news</a> [Japanese]           
+            </li><br>   
+
+            <li><b>Top Student of the Department of Information Systems Science</b> ( Class of 2014 )<br>
+            Soka University
+            </li><br>               
+            
+            <li><b>Hornor Student</b> ( 2010, 2011, 2012, 2013 )<br>
+            Soka University
+            </li><br>
+            
+            <li><b>Soka University Honors Program</b> ( Class of 2014 )<br>
+            (Global Citizenship Program)
+            </li><br>            
+        </ul>
+                </div>
+            </div>
+
+
+        </section>
+        <!--End of Content Section-->
+        
+        
+        <!--Content Section-->
+        <section id="activity" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3></h3>
+                        <h2 class="section-title">Honors and Awards</h2>
+                        <p class="section-subtitle"></p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+<ul style="list-style:none;">
+        <li><b>IEEE Tokyo Young Professionals Committee Member</b> ( 2015 - present )<br>
+            <a href="http://ieee-jp.org/section/tokyo/en/about/yp/committee-member-2017.html" target="_blank"> official website </a>
+        </li><br>    
+        
+        <li><b>Peer-reviewer</b><br>
+            IEEE ICC 2019, IEEE Globecom 2019<br>
+            <a href="./certificate/c201806_OSN.pdf"  target="_blank">Elsevier Optical Switching and Networking</a>, IEEE Globecom 2018, IEEE ICC 2018, RNDM 2018<br>
+            IEEE GCCE 2017, IEEE Globecom 2017
+        </li><br>   
+        
+        <li><b>Confrence Committee</b><br>
+            <a href="http://www.ieee-gcce.org/2018/committee.html" target="_blank">IEEE GCCE 2018 Technical Program Committee</a>
+        </li><br>   
+        
+        <li><b>Research Mentoring</b><br>
+            Alexis K. Vu (UTD CS Undergraduate Research Program)
+        </li><br>           
+        
+        <li><b>Technical Talks</b><br>
+            CS 2305 Discrete Mathematics for Computing I (Feb. 2018, UTDallas)<br>
+            Department Mixer (Feb. 2018, UTDallas)
+        </li><br>           
+        
+        <li><b>IEEE student member</b> ( 2014 - present )<br>
+        </li><br>           
+    </ul>
+
+
+        </section>
+        <!--End of Content Section-->
+        
+
+
+    </main>
+    <!--End Main Content Area-->
+
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <p id="copyright" class="col-2">Made by <a href="https://www.shapingrain.com">ShapingRain</a> - Edited by Genya Ishigaki</p>
+
         </div>
-        
-        <div class="affilblock">
-            <p class="titlename"> <b>Genya Ishigaki</b> &nbsp;
-                <a href="https://www.researchgate.net/profile/Genya_Ishigaki" style="color:#494949;" target="_blank"><i class="ai ai-researchgate-square ai-1x"></i></a>
-                <a href="http://www.linkedin.com/in/genyaishigaki/" style="color:#494949;" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </p>    
-        
-            <p>
-            Ph.D. student at 
-            <a href="https://anrlutdallas.github.io/" target="_blank">Advanced Networks Research Lab</a>,<br>
-            <a href="http://ecs.utdallas.edu" target="_blank">Erik Jonsson School of Engineering & Computer Science</a>,<br>
-            <a href="http://cs.utdallas.edu" target="_blank">Dept. of Computer Science</a>,
-            <a href="http://www.utdallas.edu" target="_blank">The University of Texas at Dallas</a><br>
-            <br>
-            Research themes: optimization problems and algorithms for network design<br>
-            <a href="CV20190424_GenyaIshigaki_FW.pdf" target="_blank">CV (pdf) [last updated: April 24, 2019]</a>
-            <br clear="left">
-            </p>
-        </div>
-        </div>
-        
-        <div class="menuzone">
-            <button class="menu" type="button" id="0" onClick="but(0)">Summary</button>
-            <button class="menu" type="button" id="1" onClick="but(1)">Bio</button>
-            <button class="menu" type="button" id="2" onClick="but(2)">Projects</button>
-            <button class="menu" type="button" id="3" onClick="but(3)">Publications</button>
-            <button class="menu" type="button" id="4" onClick="but(4)">Awards</button>
-            <button class="menu" type="button" id="5" onClick="but(5)">Activities</button>    
-        </div>
-        
-        
-        <div class="sectionzone"></div>
-        
-        <script>
-        var filenames = [
-            "about.html",
-            "bio.html",
-            "projects.html",
-            "publications.html",
-            "awards.html",
-            "activities.html"
-        ];
-        
-        function but(num) {
-            $(function(){
-                $("div.sectionzone").load(filenames[num]);
-            });
-        }
-        </script>
-        
-    </body>
+    </footer>
+    <!--End of Footer-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+</body>
 </html>
